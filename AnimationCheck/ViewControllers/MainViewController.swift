@@ -19,7 +19,6 @@ class MainViewController: UIViewController {
     @IBOutlet var delayLabel: UILabel!
     
     private var animation = Animation.getAnimation()
-//    private var animation: Animation!
     private var status = true
     
     override func viewDidLoad() {
