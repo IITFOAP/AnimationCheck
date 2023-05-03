@@ -9,7 +9,7 @@ import UIKit
 import SpringAnimation
 
 
-class MainViewController: UIViewController {
+final class MainViewController: UIViewController {
     @IBOutlet var animationView: SpringView!
     
     @IBOutlet var presetLabel: UILabel!
