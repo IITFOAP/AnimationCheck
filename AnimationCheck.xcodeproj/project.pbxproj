@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C07D3662A03D6DA0053910A /* .gitigmore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07D3652A03D6DA0053910A /* .gitigmore.swift */; };
 		2C10D89F2A010E990006BB1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10D89E2A010E990006BB1A /* AppDelegate.swift */; };
 		2C10D8A12A010E990006BB1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10D8A02A010E990006BB1A /* SceneDelegate.swift */; };
 		2C10D8A32A010E990006BB1A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10D8A22A010E990006BB1A /* MainViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C07D3652A03D6DA0053910A /* .gitigmore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitigmore.swift; sourceTree = "<group>"; };
 		2C10D89B2A010E990006BB1A /* AnimationCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C10D89E2A010E990006BB1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C10D8A02A010E990006BB1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		2C10D8922A010E990006BB1A = {
 			isa = PBXGroup;
 			children = (
+				2C07D3652A03D6DA0053910A /* .gitigmore.swift */,
 				2C10D89D2A010E990006BB1A /* AnimationCheck */,
 				2C10D89C2A010E990006BB1A /* Products */,
 			);
@@ -202,6 +205,7 @@
 			files = (
 				2C10D8A32A010E990006BB1A /* MainViewController.swift in Sources */,
 				2C10D89F2A010E990006BB1A /* AppDelegate.swift in Sources */,
+				2C07D3662A03D6DA0053910A /* .gitigmore.swift in Sources */,
 				2C10D8B62A0126F20006BB1A /* Animation.swift in Sources */,
 				2C10D8B82A0127B00006BB1A /* DataStore.swift in Sources */,
 				2C10D8A12A010E990006BB1A /* SceneDelegate.swift in Sources */,
