@@ -18,8 +18,8 @@ struct Animation {
         let result = Animation(
             preset: DataStore.shared.presets.randomElement() ?? "",
             curve: DataStore.shared.curves.randomElement() ?? "",
-            force: DataStore.shared.forces,
-            duration: DataStore.shared.durations,
+            force: Double.random(in: 1.1...1.99),
+            duration: Double.random(in: 0.8...1.0),
             delay: DataStore.shared.delay
         )
         

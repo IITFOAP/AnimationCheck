@@ -72,14 +72,6 @@ final class DataStore {
         "easeInOutBack"
     ]
     
-    var forces: Double {
-        Double.random(in: 1.1...1.99)
-    }
-    
-    var durations: Double {
-        Double.random(in: 0.8...1.0)
-    }
-    
     let delay = 1.0
     
     private init() {}
