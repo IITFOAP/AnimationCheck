@@ -28,6 +28,7 @@ final class MainViewController: UIViewController {
         forceLabel.text = "Force: \(String(format: "%.2f", animation.force))"
         durationLabel.text = "Duration: \(String(format: "%.2f", animation.duration))"
         delayLabel.text = "Delay: \(animation.delay)"
+        print("Hello world")
     }
     
     @IBAction func moveToTheNextAnimation(_ sender: SpringButton) {
